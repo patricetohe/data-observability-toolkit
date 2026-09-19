@@ -1,0 +1,22 @@
+# Roadmap
+
+- [ ] Project skeleton (src layout, tests, config)
+- [ ] Metrics model: row count, null %, distinct %, min/max, freshness
+- [ ] Profiler module scanning a DuckDB/Postgres table
+- [ ] Historical metric snapshot store (SQLite)
+- [ ] Anomaly detection: rolling z-score on metric history
+- [ ] Schema-change detector (column list/types over time)
+- [ ] Data drift check between two snapshots (PSI or KS test)
+- [ ] Streamlit dashboard: metric trends per table
+- [ ] Alert rule engine (threshold-based, YAML config)
+- [ ] Alert delivery hook (webhook, logged locally by default)
+- [ ] CLI: `observe run --config config.yaml`
+- [ ] Scheduler wrapper (APScheduler) for periodic scans
+- [ ] Unit tests for profiler and anomaly detector
+- [ ] Multi-connector support (Postgres, Snowflake via env creds)
+- [ ] Lightweight lineage tracker: parse SQL to extract table dependencies (SQLGlot)
+- [ ] Aggregate data-quality score per table
+- [ ] Historical report export (HTML)
+- [ ] Config validation with pydantic
+- [ ] Architecture README
+- [ ] Docker packaging + docker-compose demo

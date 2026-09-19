@@ -1,0 +1,7 @@
+pandas
+sqlalchemy
+pydantic
+streamlit
+sqlglot
+apscheduler
+pytest
