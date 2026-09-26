@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Project skeleton (src layout, tests, config)
+- [x] Project skeleton (src layout, tests, config)
 - [ ] Metrics model: row count, null %, distinct %, min/max, freshness
 - [ ] Profiler module scanning a DuckDB/Postgres table
 - [ ] Historical metric snapshot store (SQLite)
