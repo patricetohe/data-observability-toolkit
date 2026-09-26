@@ -1,0 +1,22 @@
+# Example configuration for the data observability toolkit.
+# Copy to config/config.yaml and adjust for your environment.
+
+connections:
+  warehouse:
+    dialect: postgresql
+    url_env_var: OBSERVABILITY_WAREHOUSE_URL
+
+tables:
+  - name: public.orders
+    connection: warehouse
+    freshness_column: created_at
+  - name: public.customers
+    connection: warehouse
+
+metrics_store:
+  path: observability_metrics.db
+
+alert_thresholds:
+  null_pct_max: 0.2
+  row_count_zscore_max: 3.0
+  freshness_max_hours: 24
