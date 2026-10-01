@@ -20,3 +20,5 @@
 - [ ] Config validation with pydantic
 - [ ] Architecture README
 - [ ] Docker packaging + docker-compose demo
+
+- [x] GitHub Actions CI: run unit tests on every PR
