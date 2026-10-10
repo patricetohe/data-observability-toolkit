@@ -2,7 +2,7 @@
 
 - [x] Project skeleton (src layout, tests, config)
 - [x] Metrics model: row count, null %, distinct %, min/max, freshness
-- [ ] Profiler module scanning a DuckDB/Postgres table
+- [x] Profiler module scanning a DuckDB/Postgres table
 - [ ] Historical metric snapshot store (SQLite)
 - [ ] Anomaly detection: rolling z-score on metric history
 - [ ] Schema-change detector (column list/types over time)
