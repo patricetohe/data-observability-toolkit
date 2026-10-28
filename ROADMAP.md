@@ -5,7 +5,7 @@
 - [x] Profiler module scanning a DuckDB/Postgres table
 - [x] Historical metric snapshot store (SQLite)
 - [x] Anomaly detection: rolling z-score on metric history
-- [ ] Schema-change detector (column list/types over time)
+- [x] Schema-change detector (column list/types over time)
 - [ ] Data drift check between two snapshots (PSI or KS test)
 - [ ] Streamlit dashboard: metric trends per table
 - [ ] Alert rule engine (threshold-based, YAML config)
