@@ -6,7 +6,7 @@
 - [x] Historical metric snapshot store (SQLite)
 - [x] Anomaly detection: rolling z-score on metric history
 - [x] Schema-change detector (column list/types over time)
-- [ ] Data drift check between two snapshots (PSI or KS test)
+- [x] Data drift check between two snapshots (PSI or KS test)
 - [ ] Streamlit dashboard: metric trends per table
 - [ ] Alert rule engine (threshold-based, YAML config)
 - [ ] Alert delivery hook (webhook, logged locally by default)
