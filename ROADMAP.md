@@ -8,7 +8,7 @@
 - [x] Schema-change detector (column list/types over time)
 - [x] Data drift check between two snapshots (PSI or KS test)
 - [ ] Streamlit dashboard: metric trends per table
-- [ ] Alert rule engine (threshold-based, YAML config)
+- [x] Alert rule engine (threshold-based, YAML config)
 - [ ] Alert delivery hook (webhook, logged locally by default)
 - [ ] CLI: `observe run --config config.yaml`
 - [ ] Scheduler wrapper (APScheduler) for periodic scans
